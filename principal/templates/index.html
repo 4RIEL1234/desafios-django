@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}Página de Inicio{% endblock %}
+
+{% block content %}
+    <h2>Bienvenido, {{ nombre }}</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dolore, magnam velit architecto, in illo ipsum, fugit debitis autem amet quaerat? Totam, quo sed et temporibus sint atque culpa est.</p>
+    <br>
+    <div id="Imagenes1" >
+        <img src="{% static 'img/luffy.webp' %}" alt="imagen1" width="400">
+        <img src="{% static 'img/zoro.jpeg' %}" alt="imagen1" width="400">
+        <br>
+        <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla ab officia aperiam facilis, a sed! Praesentium, aut iste veritatis accusantium laudantium numquam eligendi esse ab aperiam eaque placeat provident doloremque.</h3>
+        <img src="{% static 'img/img1.jpeg' %}" alt="imagen2" width="400" height="350">
+        <img src="{% static 'img/img2.jpeg' %}" alt="imagen1" width="400" height="350">
+        <br>
+        <img src="{% static 'img/sii.png' %}" alt="imagen2" width="400" >
+    </div>
+    
+{% endblock %}
